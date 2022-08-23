@@ -1,0 +1,30 @@
+/* 
+@media all and (min-width:992px){
+    .primary-menu{
+        display: flex !important;
+    }
+    .mobile-icon,.crose-icon{
+        display: none !important;
+    }
+}
+@media all and (max-width:992px){
+    .mobile-icon{
+      display: block;
+    }
+    .primary-menu {
+        position: fixed;
+        width: 250px;
+        height: calc(100vh - 90px);
+        top: 90px;
+        right: -250px;
+        flex-direction: column;
+        background-color: #444;
+        transition: .5s;
+    }
+    .primary-menu li {
+        padding: 10px 0;
+    }
+    .open{
+        right: 0;
+    }
+} */
